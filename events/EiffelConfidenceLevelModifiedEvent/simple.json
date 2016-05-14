@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "type": "EiffelConfidenceLevelModifiedEvent",
+    "version": "1.0",
+    "time": 1234567890,
+    "domainId": "example.domain",
+    "id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
+  },
+  "data": {
+    "name": "stable",
+    "value": "SUCCESS",
+    "issuer": {
+      "name": "Gary Johnston",
+      "email": "gary.johnston@teamamerica.com",
+      "id": "garyj",
+      "group": "Team America"
+    }
+  },
+  "links": {
+    "causes": [
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1",
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+    ],
+	"subjects": [
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3",
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4"
+    ],
+    "subConfidenceLevels": [
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5",
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6"
+    ]
+  }
+}

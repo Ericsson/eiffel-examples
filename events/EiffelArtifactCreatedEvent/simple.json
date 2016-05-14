@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "type": "EiffelArtifactCreatedEvent",
+    "version": "1.0",
+    "time": 1234567890,
+    "domainId": "example.domain",
+    "id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
+  },
+  "data": {
+    "gav": {
+      "groupId": "com.mycompany.myproduct",
+      "artifactId": "artifact-name",
+      "version": "2.1.7"
+    },
+    "fileInformation": [
+      {
+        "classifier": "debug",
+        "extension": "jar"
+      },
+      {
+        "classifier": "test",
+        "extension": ""
+      },
+      {
+        "classifier": "",
+        "extension": "exe"
+      }
+    ],
+    "buildCommand": "/my/build/command with arguments"
+  },
+  "links": {
+    "causes": [
+	  "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
+    ],
+    "previousVersions": [
+	  "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+    ],
+    "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1",
+    "environment": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
+  }
+}
