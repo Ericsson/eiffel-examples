@@ -1,6 +1,6 @@
 {
   "meta": {
-    "type": "EiffelActivityDequeuedEvent",
+    "type": "EiffelActivityCanceledEvent",
     "version": "1.0",
     "time": 1234567890,
     "domainId": "example.domain",
