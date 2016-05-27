@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "domainId": "domainId-test",
+    "id": "e1e93f13-7c3c-4f17-9753-ebf0c86ff1c2",
+    "type": "EiffelActivityTriggeredEvent",
+    "version": "1.0",
+    "time": 1234567890
+  },
+  "data": {
+    "name": "Component X Build",
+    "category": "Component Build",
+    "trigger": {
+      "type": "MANUAL",
+      "description": "Triggered by EiffelArtifactPublishedEvent"
+    },
+    "executionType": "AUTOMATED"
+  },
+  "links": {
+    "causes": [
+        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee8"
+    ]
+  }
+}
