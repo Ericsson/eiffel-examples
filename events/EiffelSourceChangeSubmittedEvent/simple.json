@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "type": "EiffelSourceChangeSubmittedEvent",
+    "version": "1.0",
+    "time": 1234567890,
+    "domainId": "example.domain",
+    "id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
+  },
+  "data": {
+    "svnIdentifier": {
+      "revision": 42,
+      "directory": "trunk",
+      "repoName": "Mainline",
+      "repoUri": "svn://repohost/mainline"
+    },
+    "submitter": {
+      "name": "Jane Doe",
+      "email": "jane.doe@company.com",
+      "id": "j_doe",
+      "group": "Team Wombats"
+    }
+  },
+  "links": {
+    "change": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1",
+    "previousVersions": [
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+    ]
+  }
+}
