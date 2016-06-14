@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "type": "EiffelCompositionDefinedEvent",
+    "version": "1.0",
+    "time": 1234567890,
+    "domainId": "example.domain",
+    "id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
+  },
+  "data": {
+    "name": "myCompositionName",
+    "version": "42.0.7"
+  },
+  "links": {
+    "elements": [
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1",
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2",
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3",
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4"
+    ],
+    "previousVersions": [
+      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5"
+    ]
+  }
+}
