@@ -10,15 +10,26 @@
     "name": "myCompositionName",
     "version": "42.0.7"
   },
-  "links": {
-    "elements": [
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1",
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2",
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3",
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4"
-    ],
-    "previousVersions": [
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5"
-    ]
-  }
+  "links": [
+    {
+      "type": "ELEMENT",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
+    },
+    {
+      "type": "ELEMENT",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+    },
+    {
+      "type": "ELEMENT",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
+    },
+    {
+      "type": "ELEMENT",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4"
+    },
+    {
+      "type": "PREVIOUS_VERSION",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5"
+    }
+  ]
 }

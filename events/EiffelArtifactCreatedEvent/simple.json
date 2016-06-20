@@ -28,14 +28,22 @@
     ],
     "buildCommand": "/my/build/command with arguments"
   },
-  "links": {
-    "causes": [
-	  "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
-    ],
-    "previousVersions": [
-	  "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
-    ],
-    "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1",
-    "environment": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
-  }
+  "links": [
+    {
+      "type": "CAUSE",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
+    },
+    {
+      "type": "PREVIOUS_VERSION",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+    },
+    {
+      "type": "COMPOSITION",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
+    },
+    {
+      "type": "ENVIRONMENT",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
+    }
+  ]
 }

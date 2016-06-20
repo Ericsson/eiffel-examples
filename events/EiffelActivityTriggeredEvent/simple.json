@@ -1,7 +1,7 @@
 {
   "meta": {
     "domainId": "domainId-test",
-    "id": "e1e93f13-7c3c-4f17-9753-ebf0c86ff1c2",
+    "id": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0",
     "type": "EiffelActivityTriggeredEvent",
     "version": "1.0",
     "time": 1234567890
@@ -15,9 +15,10 @@
     },
     "executionType": "AUTOMATED"
   },
-  "links": {
-    "causes": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee8"
-    ]
-  }
+  "links": [
+    {
+      "type": "CAUSE",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
+    }
+  ]
 }

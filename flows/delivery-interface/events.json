@@ -10,8 +10,8 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-    }
+    "links": [
+    ]
   },
   {
     "meta": {
@@ -24,9 +24,12 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "base": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
-    }
+    "links": [
+      {
+        "type": "BASE",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
+      }
+    ]
   },
   {
     "meta": {
@@ -39,12 +42,16 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "base": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0",
-      "previousVersions": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
-      ]
-    }
+    "links": [
+      {
+        "type": "BASE",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
+      },
+      {
+        "type": "PREVIOUS_VERSION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
+      }
+    ]
   },
   {
     "meta": {
@@ -57,12 +64,16 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "change": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2",
-      "previousVersions": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
-      ]
-    }
+    "links": [
+      {
+        "type": "CHANGE",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+      },
+      {
+        "type": "PREVIOUS_VERSION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
+      }
+    ]
   },
   {
     "meta": {
@@ -75,9 +86,12 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "base": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
-    }
+    "links": [
+      {
+        "type": "BASE",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
+      }
+    ]
   },
   {
     "meta": {    
@@ -90,12 +104,16 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "change": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4",
-      "previousVersions": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
-      ]
-    }
+    "links": [
+      {
+        "type": "CHANGE",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4"
+      },
+      {
+        "type": "PREVIOUS_VERSION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
+      }
+    ]
   },
   {
     "meta": {
@@ -108,11 +126,12 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "elements": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
-      ]
-    }
+    "links": [
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
+      }
+    ]
   },
   {
     "meta": {
@@ -125,14 +144,16 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "elements": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
-      ],
-      "previousVersions": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6"
-      ]
-    }
+    "links": [
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
+      },
+      {
+        "type": "PREVIOUS_VERSION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6"
+      }
+    ]
   },
   {
     "meta": {
@@ -145,14 +166,16 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "elements": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5"
-      ],
-      "previousVersions": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee7"
-      ]
-    }
+    "links": [
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5"
+      },
+      {
+        "type": "PREVIOUS_VERSION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee7"
+      }
+    ]
   },
   {
     "meta": {
@@ -176,9 +199,12 @@
       ],
       "buildCommand": "/my/build/command with arguments"
     },
-    "links": {
-      "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6"
-    }
+    "links": [
+      {
+        "type": "COMPOSITION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6"
+      }
+    ]
   },
   {
     "meta": {
@@ -202,9 +228,12 @@
       ],
       "buildCommand": "/my/build/command with arguments"
     },
-    "links": {
-      "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee8"
-    }
+    "links": [
+      {
+        "type": "COMPOSITION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee8"
+      }
+    ]
   },
   {
     "meta": {
@@ -217,9 +246,12 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "iut": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee9"
-    }
+    "links": [
+      {
+        "type": "IUT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee9"
+      }
+    ]
   },
   {
     "meta": {
@@ -232,9 +264,12 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "iut": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee10"
-    }
+    "links": [
+      {
+        "type": "IUT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee10"
+      }
+    ]
   },
   {
     "meta": {
@@ -247,9 +282,12 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "testCaseExecution": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee11"
-    }
+    "links": [
+      {
+        "type": "TEST_CASE_EXECUTION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee11"
+      }
+    ]
   },
   {
     "meta": {
@@ -262,9 +300,12 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "testCaseExecution": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee12"
-    }
+    "links": [
+      {
+        "type": "TEST_CASE_EXECUTION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee12"
+      }
+    ]
   },
   {
     "meta": {
@@ -278,11 +319,12 @@
       "name": "approvedForSystemIntegration",
       "value": "SUCCESS"
     },
-    "links": {
-    "subjects": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee9"
-      ]
-    }
+    "links": [
+      {
+        "type": "SUBJECT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee9"
+      }
+    ]
   },
   {
     "meta": {
@@ -296,10 +338,11 @@
       "name": "approvedForSystemIntegration",
       "value": "SUCCESS"
     },
-    "links": {
-    "subjects": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee10"
-      ]
-    }
+    "links": [
+      {
+        "type": "SUBJECT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee10"
+      }
+    ]
   }
 ]

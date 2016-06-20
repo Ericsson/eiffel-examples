@@ -16,18 +16,30 @@
       "group": "Team America"
     }
   },
-  "links": {
-    "causes": [
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1",
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
-    ],
-	"subjects": [
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3",
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4"
-    ],
-    "subConfidenceLevels": [
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5",
-      "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6"
-    ]
-  }
+  "links": [
+    {
+      "type": "CAUSE",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
+    },
+    {
+      "type": "CAUSE",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+    },
+    {
+      "type": "SUBJECT",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
+    },
+    {
+      "type": "SUBJECT",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4"
+    },
+    {
+      "type": "SUB_CONFIDENCE_LEVEL",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5"
+    },
+    {
+      "type": "SUB_CONFIDENCE_LEVEL",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6"
+    }
+  ]
 }

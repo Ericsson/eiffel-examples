@@ -22,7 +22,10 @@
       }
     ]
   },
-  "links": {
-    "activityExecution": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
-  }
+  "links": [
+    {
+      "type": "ACTIVITY_EXECUTION",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
+    }
+  ]
 }

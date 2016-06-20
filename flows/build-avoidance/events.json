@@ -10,8 +10,8 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-    }
+    "links": [
+    ]
   },
   {
     "meta": {
@@ -24,11 +24,12 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "previousVersions": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
-      ]
-    }
+    "links": [
+      {
+        "type": "PREVIOUS_VERSION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
+      }
+    ]
   },
   {
     "meta": {
@@ -41,11 +42,12 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "elements": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
-      ]
-    }
+    "links": [
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee0"
+      }
+    ]
   },
   {
     "meta": {
@@ -58,14 +60,16 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "elements": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
-      ],
-      "previousVersions": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
-      ]
-    }
+    "links": [
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
+      },
+      {
+        "type": "PREVIOUS_VERSION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+      }
+    ]
   },
   {
     "meta": {
@@ -89,9 +93,12 @@
       ],
       "buildCommand": "/my/build/command with arguments"
     },
-    "links": {
-      "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
-    }
+    "links": [
+      {
+        "type": "COMPOSITION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+      }
+    ]
   },
   {
     "meta": {
@@ -115,9 +122,12 @@
       ],
       "buildCommand": "/my/build/command with arguments"
     },
-    "links": {
-      "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
-    }
+    "links": [
+      {
+        "type": "COMPOSITION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+      }
+    ]
   },
   {
     "meta": {
@@ -141,9 +151,12 @@
       ],
       "buildCommand": "/my/build/command with arguments"
     },
-    "links": {
-      "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
-    }
+    "links": [
+      {
+        "type": "COMPOSITION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+      }
+    ]
   },
   {
     "meta": {
@@ -167,9 +180,12 @@
       ],
       "buildCommand": "/my/build/command with arguments"
     },
-    "links": {
-      "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
-    }
+    "links": [
+      {
+        "type": "COMPOSITION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+      }
+    ]
   },
   {
     "meta": {
@@ -193,9 +209,12 @@
       ],
       "buildCommand": "/my/build/command with arguments"
     },
-    "links": {
-      "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
-    }
+    "links": [
+      {
+        "type": "COMPOSITION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+      }
+    ]
   },
   {
     "meta": {
@@ -219,12 +238,16 @@
       ],
       "buildCommand": "/my/build/command with arguments"
     },
-    "links": {
-      "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3",
-      "previousVersions": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4"
-      ]
-    }
+    "links": [
+      {
+        "type": "COMPOSITION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
+      },
+      {
+        "type": "PREVIOUS_VERSION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4"
+      }
+    ]
   },
   {
     "meta": {
@@ -248,12 +271,16 @@
       ],
       "buildCommand": "/my/build/command with arguments"
     },
-    "links": {
-      "composition": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3",
-      "previousVersions": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee8"
-      ]
-    }
+    "links": [
+      {
+        "type": "COMPOSITION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee3"
+      },
+      {
+        "type": "PREVIOUS_VERSION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee8"
+      }
+    ]
   },
   {
     "meta": {
@@ -266,15 +293,28 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "elements": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4",
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5",
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6",
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee7",
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee8"
-      ]
-    }
+    "links": [
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee4"
+      },
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5"
+      },
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6"
+      },
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee7"
+      },
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee8"
+      }
+    ]
   },
   {
     "meta": {
@@ -287,17 +327,31 @@
     "data": {
       "placeholder": "The syntax of this event has not yet been defined."
     },
-    "links": {
-      "elements": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee9",
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5",
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6",
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee7",
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee10"
-      ],
-      "previousVersions": [
-        "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee11"
-      ]
-    }
+    "links": [
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee9"
+      },
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee5"
+      },
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee6"
+      },
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee7"
+      },
+      {
+        "type": "ELEMENT",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee10"
+      },
+      {
+        "type": "PREVIOUS_VERSION",
+        "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeee11"
+      }
+    ]
   }
 ]

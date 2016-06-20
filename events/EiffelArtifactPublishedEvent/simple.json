@@ -18,8 +18,14 @@
       }
     ]
   },
-  "links": {
-    "context": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1",
-    "artifact": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
-  }
+  "links": [
+    {
+      "type": "CONTEXT",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee1"
+    },
+    {
+      "type": "ARTIFACT",
+      "target": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeee2"
+    }
+  ]
 }
