@@ -9,10 +9,12 @@
   "data": {
     "name": "Component X Build",
     "category": "Component Build",
-    "trigger": {
-      "type": "MANUAL",
-      "description": "Triggered by EiffelArtifactPublishedEvent"
-    },
+    "triggers": [
+      {
+        "type": "MANUAL",
+        "description": "Triggered by EiffelArtifactPublishedEvent"
+      }
+    ],
     "executionType": "AUTOMATED",
     "customData" : [
 	{
